@@ -1,0 +1,5 @@
+- task: CmdLine@2
+  inputs:
+    script: |
+      javac ArraySum.java
+      java Arraysum
